@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ColorDrag.HomePage">
+    
+        <ScrollView Orientation="Vertical">
+        
+            <StackLayout  Spacing="5">
+            
+                <Label x:Name="labelX" Text="Enter x:" />
+                <Entry x:Name="entryX"/>
+
+            <Label x:Name="labelY" Text="Enter y:"/>
+            <Entry x:Name="entryY" Keyboard="Numeric"/>
+
+
+            <Label x:Name="labelRadius" Text="Enter radius:"/>
+            <Entry x:Name="entryRadius"/>
+                
+            <Label x:Name="labelColor" Text="Enter color:"/>
+            <Entry x:Name="entryColor"/>
+
+            
+
+            <Button x:Name="button1" Text="PRESS TO DRAW A CIRCLE" 
+                    FontSize="Large">
+               
+            </Button>
+
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
